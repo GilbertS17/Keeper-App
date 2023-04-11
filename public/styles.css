@@ -24,6 +24,46 @@ header h1 {
   font-weight: 200;
 }
 
+.input-box {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px 20px;
+  width: 400px;
+  margin: 16px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.input-box input {
+  border: none;
+  width: 300px;
+  height: 30px;
+  margin: 10px 0px;
+}
+
+.input-box input:focus {
+  outline: #f5ba13 3px solid;
+}
+
+.input-box textarea {
+  border: none;
+  resize: none;
+  width: 300px;
+  margin: 10px 0;
+}
+
+.input-box textarea:focus {
+  outline: #f5ba13 3px solid;
+}
+
+.input-box button {
+  border: none;
+  border-radius: 50%;
+  padding: 7px;
+  background-color: #f5ba13;
+}
+
 footer {
   position: absolute;
   text-align: center;
